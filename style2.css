@@ -1,8 +1,14 @@
 body {
-    background-color: red;
-    color: white;
+    background-color: rgba(239, 55, 55, 0.814);
+    color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
+}
+
+.titulo_1 {
+    position: center;
+    font-size: 25px;
+    color: black;
 }
 
 .titulo__lista {
