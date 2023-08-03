@@ -1,4 +1,3 @@
-/*estilização do cabeçalho*/
 .cabeçalho__menu-hamburguer{
     width: 24px;
     height: 24px;
@@ -26,45 +25,44 @@
     padding: 1em;
 }
 
-.container__botao { /*esconde o checkbox*/
+.container__botao { 
     display: none;
 }
 
 
-.container__titulo { /*esconde a escrita do favoritos e usuario*/
+.container__titulo { 
     display: none;
 }
 
-/*menu hamburguer*/
 .container__botao:checked~.container__rotulo>.cabeçalho__menu-hamburguer {/*esconde e mostra o menu*/
     background-image: url("img/Menu Aberto.svg");
 }
 
 .container__botao:checked~.container__rotulo {
-    background: #000000; /*cor do menu Ex: vermelho*/
+    background: #000000; 
 }
 
 .lista-menu {
-    display: none; /*permite fechar o menu*/
+    display: none;
     position: absolute;
-    top: 100%; /*o texto fica abaixo do desenho do menu*/
-    width: 25vw; /*largura do menu na tela*/
+    top: 100%; 
+    width: 25vw; 
 }
 
 .container__botao:checked~.lista-menu {
-    display: block; /*deixa os itens do menu aparecendo*/
+    display: block; 
     
 }
 
 .lista-menu__titulo,
 .lista-menu__item {
-    padding: 0.5em;/*medida proporcional ao tamanho do dispositivo*/
-    background-color: white ; /*cor de fundo da lista do menu*/
+    padding: 0.5em;
+    background-color: white ; 
     font-family: 'Poppins', sans-serif;
 }
 
 .lista-menu__titulo {
-    color: rgb(128, 3, 3) ; /*cor da escrita do menu*/
+    color: rgb(128, 3, 3) ; 
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     padding: 1em;
@@ -85,7 +83,6 @@
     font-size: 16px;
 }
 
-/*SEÇÃO doacao */
 .doacao-imagem{
 	width: 20%;
     padding-left: 70px;
@@ -133,7 +130,6 @@
     text-decoration: none;
 }
 
-/*secao secundario*/
 .secundario__imagem{
     width: 20%;
 }
@@ -168,12 +164,10 @@
     background-color: rgb(232, 230, 230);
 }
 
-
 .container__descricao {
     padding: 2em;
     margin-left: 5em;
 }
-
 
 .container__botao {
     background-color: #dcdbdb;
@@ -200,7 +194,6 @@
 
 }
 
-/*footer*/
 .rodape {
     text-align: center;
     margin: 5em 0em;
@@ -227,8 +220,8 @@
     margin-bottom: 1em;
     color: white;
     font-size: 12px;
-
     line-height: 1em;
+    margin-top: 4px;
 }
 
 .lista__link a:hover {
